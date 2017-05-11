@@ -7,6 +7,7 @@ public class Flower {
 	Flower(int petals){
 		petalCount = petals;
 		System.out.printf("Constructor w/ int arg only,petalCount = % 4d %n",petalCount);
+		//%4d 表示是interger，而且空4个字符的位置
 	}
 	Flower(String ss){
 		System.out.printf("Constructor w/ String arg only, s="
